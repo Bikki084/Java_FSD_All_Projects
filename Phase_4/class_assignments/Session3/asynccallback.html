@@ -10,16 +10,25 @@
 
 <body>
     <script>
-        function master(a, b) {
-            var result = a * b;
-            var result1 = a + b;
-            return function () {
-                console.log("Resulets are: "+ result+ ", "+result1);
-            }
+
+        function fetch(callback) {
+            setTimeout(
+            function () {
+                console.log("data fectched");
+                callback();
+            }, 5000);
+
         }
 
-        var func = master(2, 8);
-        func();
+
+        function display() {
+
+            console.log("done");
+        }
+
+        fetch(display);
+
+
 
     </script>
 </body>
