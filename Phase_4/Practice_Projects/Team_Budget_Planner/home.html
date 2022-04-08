@@ -22,7 +22,7 @@
     <div class="container">
 
         <div class="header">
-            <h1><u>Budget App</u></h1>
+            <h1><u>Budget Planner App</u></h1>
         </div>
 
 
@@ -31,19 +31,19 @@
             <div class="budget col col-md col-sm">
                 <h2>budget</h2>
                 <img src="image/money-bag.svg" width="40" alt="" />
-                <p class="amount">Rs <span id="budgetAmount">0</span></p>
+                <p class="amount">Rs. <span id="budgetAmount">0</span></p>
             </div>
 
             <div class="expenses col col-md col-sm">
                 <h2>expenses</h2>
                 <img src="image/accounting.svg" width="40" alt="" />
-                <p class="exp-amount">Rs <span id="expensesAmount">0</span></p>
+                <p class="exp-amount">Rs. <span id="expensesAmount">0</span></p>
             </div>
 
             <div class="balance col col-md col-sm">
                 <h2>balance</h2>
                 <img src="image/law.svg" width="40" alt="" />
-                <p class="amount bala">Rs <span id="balanceAmount">0</span></p>
+                <p class="amount bala">Rs. <span id="balanceAmount">0</span></p>
             </div>
 
         </div>
@@ -106,20 +106,6 @@
                     <button onclick="callBudget()" id="bug">
                         Back to add budget ->
                     </button>
-                </div>
-
-                <div class="edit-form" id="editForm">
-                    <form action="" id="saveEdit">
-                        <div class="">
-                            <label for="">Edit your expense</label> <br />
-                            <input type="text" id="editExpName" />
-                        </div>
-                        <div class="">
-                            <label for="">Edit expense amount</label> <br />
-                            <input type="number" id="editExpNumber" />
-                        </div>
-                        <button type="submit">Save changes</button>
-                    </form>
                 </div>
 
             </div>

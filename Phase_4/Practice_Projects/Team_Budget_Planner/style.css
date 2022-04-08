@@ -129,9 +129,6 @@ input {
   width: 40%;
 }
 
-#edite_delete img {
-  cursor: pointer;
-}
 
 #edite_delete button {
   margin-left: 1px;
@@ -165,22 +162,8 @@ input {
   display: none;
 }
 
-#editForm {
-  display: none;
-  width: 100%;
-}
 
-#editForm button {
-  background: #4d4daf;
-  border: none;
-  border-radius: 6px;
-  color: #ffffff;
-  padding: 10px 30px;
-  cursor: pointer;
-  text-transform: capitalize;
-  font-size: 16px;
-  font-weight: 400;
-}
+
 
 .expense-form button {
   background: #4d4daf;
